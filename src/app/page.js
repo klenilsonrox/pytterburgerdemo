@@ -307,8 +307,8 @@ const filtrados = inf.dados.filter(it=>it.categoria===e.target.id)
         </nav>
       </header>
 
-      {inf.cart.length > 0 && isOpen && <div className="inset-0 fixed bg-black bg-opacity-30 flex items-center justify-center backdrop-blur-sm p-4 mt-4 mb-4 z-50" id="carrinho" onClick={closeCart}>
-<div className="bg-white w-screen max-w-md rounded-md overflow-hidden mt-10 mb-6">
+      {inf.cart.length > 0 && isOpen && <div className="inset-0 fixed bg-black bg-opacity-30 flex justify-center backdrop-blur-sm p-4 mt-4 mb-4 z-50" id="carrinho" onClick={closeCart}>
+<div className="bg-white w-screen max-w-md rounded-md overflow-hidden mt-10 mb-6 mx-h-[700px] overflow-y-scroll">
 
   <div className="flex justify-between border-b py-4 px-2 bg-red-600 text-white ">
     <h1 className="text-xl font-bold">itens no Carrinho:</h1>
