@@ -44,7 +44,7 @@ function page() {
 
   function finalizarCompra(){
   
-    if(nome===""){
+    if(nome.trim()===""){
       setError("O nome deve ser preenchido")
       limparIntervalo()
       return
